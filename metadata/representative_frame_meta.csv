@@ -1,0 +1,2 @@
+Image,Mask,OutDir
+data/segmented/image.jpg,data/segmented/mask.nrrd,data/simulated/foreground/

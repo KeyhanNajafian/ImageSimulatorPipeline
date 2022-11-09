@@ -1,0 +1,13 @@
+videos_meta_csv_path: metadata/videos_meta.csv                 # The path to a csv file including the meta data is necessary for the code to extract the frames.
+output_metadata_path: metadata/extracted_back_frames.csv       # The path to a csv file used as the output file including the information for the extracted frames. 
+frame_extension: .jpg                                          # Output frames extension.
+swap_color: null                                               # Remove null and set the source and distin to the proper intensity ranges if you want to use collor swapper.
+#  source: [0, 30] # yellow
+#  destin: [25, 40] # green
+transformer:                                                   # Applyting spacial augmentation transformations with the following parameters. 
+  height: 1024                                                 # Height of the output image frame. 
+  width: 1024                                                  # Height of the output image frame. 
+  rotation_angle: 45                                           # The rotation angle limit. 
+  rotation_p: 0.5                                              # The probability of applying the rotation transformation. 
+  elast_p: 0.5                                                 # The probability of applyting elastic transformaiton. 
+  trfm_index: 0                                                # 0: means center crop. The other options can be found in the `utils/transformations.py` file inside the `SpatialTRFMS` class. 

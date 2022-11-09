@@ -1,0 +1,16 @@
+segmented_images_meta_csv_path: metadata/representative_frame_meta.csv      # The path to the csv file including the meta data for the segmented samples to extract foreground objects from. 
+real_metadata_path: metadata/real_objects.csv                               # The output path to the `.csv` file that will include extracted real objects. 
+fake_metadata_path: metadata/fake_objects.csv                               # The output path to the `.csv` file that will include extracted fake objects.
+segment_extension: .png                                                     # The extension of the extracted output objects.
+min_object_size_in_pixel: 400                                               # The minimum number of pixels in the extracted object. 
+num_fakes_per_real: 1024                                                    # The number of fake smaples to be extracted using each real object template. 
+swap_color: null                                                            # Remove null and set the source and distin to the proper intensity ranges if you want to use collor swapper.
+#  source: [25, 40] # green in hsv
+#  destin: [0, 30] # yellow in hsv
+transformer:                                                                # Applyting spacial augmentation transformations with the following parameters.
+  height: 1024                                                              # Height of the output image frame. 
+  width: 1024                                                               # Height of the output image frame. 
+  rotation_angle: 45                                                        # The rotation angle limit. 
+  rotation_p: 0.5                                                           # The probability of applying the rotation transformation.
+  elast_p: 0.5                                                              # The probability of applyting elastic transformaiton.
+  trfm_index: 0  # Null transform.                                          # 0: Means Null transformation. The other options can be found in the `utils/transformations.py` file inside the `SpatialTRFMS` class.

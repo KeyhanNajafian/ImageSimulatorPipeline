@@ -1,8 +1,8 @@
-# Image Synthesization Pipeline
+# Image Synthesis Pipeline
 - - -
 This pipeline includes all the needed tools for synthesizing images using the cut-and-paste approach in overlapping wheat spikes on the background images.
 <p align="center">
-  <img src="ImageSimulation.png" alt="Image Synthesization Pipeline" width="800" height="600">
+  <img src="ImageSimulation.png" alt="Image Synthesis Pipeline" width="800" height="600">
 </p>
 
 

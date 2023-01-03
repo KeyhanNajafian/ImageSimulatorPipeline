@@ -2,7 +2,6 @@
 Extract video frames from list of videos by a user-defined interval.
 Extract all the objects are exists in a list of segmented images.
 """
-
 import os
 import cv2
 import argparse

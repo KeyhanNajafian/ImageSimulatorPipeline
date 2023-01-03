@@ -1,2 +1,2 @@
 Image,Mask,OutDir
-data/segmented/image.jpg,data/segmented/mask.nrrd,data/simulated/foreground/
+data/segmented/image.jpg,data/segmented/mask.nrrd,data/simulated/foreground/ 

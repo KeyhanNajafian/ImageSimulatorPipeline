@@ -11,7 +11,7 @@ from skimage import io
 from typing import Callable, Tuple, List, Union
 
 import utils
-import data
+import data 
 
 random.seed(246)
 np.random.seed(246)

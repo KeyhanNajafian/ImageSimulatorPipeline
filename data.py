@@ -8,7 +8,7 @@ from typing import Callable, Tuple, List, Union
 
 import utils
 
-# Define Constants.
+# Define Constants. 
 MASKMINPIXELS = 400
 
 

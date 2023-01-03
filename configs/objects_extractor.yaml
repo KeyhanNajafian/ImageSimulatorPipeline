@@ -3,7 +3,7 @@ real_metadata_path: metadata/real_objects.csv                               # Th
 fake_metadata_path: metadata/fake_objects.csv                               # The output path to the `.csv` file that will include extracted fake objects.
 segment_extension: .png                                                     # The extension of the extracted output objects.
 min_object_size_in_pixel: 400                                               # The minimum number of pixels in the extracted object. 
-num_fakes_per_real: 1024                                                    # The number of fake smaples to be extracted using each real object template. 
+num_fakes_per_real: 10                                                      # The number of fake smaples to be extracted using each real object template. 
 swap_color: null                                                            # Remove null and set the source and distin to the proper intensity ranges if you want to use collor swapper.
 #  source: [25, 40] # green in hsv
 #  destin: [0, 30] # yellow in hsv

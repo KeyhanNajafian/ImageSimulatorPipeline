@@ -12,7 +12,7 @@ num_loc_finder_try: 50                                                          
 iou_threshold: 0.6                                                               # The overlap threshold of a new object with the other overlaid objects.
 image_heigth: 1024                                                               # Output image height. 
 image_width: 1024                                                                # Output image width.
-image_extension: .jpg                                                            # Output image extension. 
+image_extension: .jpg                                                            # Output image extension.  
 dataset_size: 50                                                                 # The size of the dataset to be synthesized in the form of the output dataset. 
 phase: valid  # options: `train`, `valid`                                        # Then training of validation phase you want to synthesize the dataset for. 
 out_dir: data/synthesized/                                                       # The path to the output directory for saving the synthesized dataset. 

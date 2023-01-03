@@ -2,7 +2,7 @@ videos_meta_csv_path: metadata/videos_meta.csv                 # The path to a c
 output_metadata_path: metadata/extracted_back_frames.csv       # The path to a csv file used as the output file including the information for the extracted frames. 
 frame_extension: .jpg                                          # Output frames extension.
 swap_color: null                                               # Remove null and set the source and distin to the proper intensity ranges if you want to use collor swapper.
-#  source: [0, 30] # yellow
+#  source: [0, 30]  # yellow
 #  destin: [25, 40] # green
 transformer:                                                   # Applyting spacial augmentation transformations with the following parameters. 
   height: 1024                                                 # Height of the output image frame. 

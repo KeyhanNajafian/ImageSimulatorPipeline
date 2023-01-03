@@ -1,3 +1,4 @@
+"""Visualize pairs of images/masks by hard coding the directory addresses."""
 import os
 import glob
 from utils import Visualizer

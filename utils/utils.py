@@ -1,3 +1,4 @@
+"""Utility functions and classes for data synthesis."""
 import cv2
 import os
 import random

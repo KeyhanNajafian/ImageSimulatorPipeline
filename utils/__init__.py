@@ -8,5 +8,5 @@ from .utils import get_color_range
 from .utils import crop
 from .utils import configLoader
 from .utils import imageReader
-from .transformations import SpatialTRFMS
+from .transformations import SpatialTRFMS 
 from .transformations import Transformation

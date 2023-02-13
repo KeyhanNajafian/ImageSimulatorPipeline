@@ -6,7 +6,7 @@ This pipeline includes all the needed tools for synthesizing images using the cu
 </p>
 
 
-### Code configuration and Run:
+### Code configuration and run:
 To implement the code we used Python version 3.9, and a version of the packages can be installed through installing all the required packages.
 
 1. In order to install the required packages please run the following command using `pip`: 

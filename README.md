@@ -35,16 +35,16 @@ To implement the code we used Python version 3.9, and a version of the packages 
    ```  
 ### 📝 Cite
 @article{
-doi:10.34133/plantphenomics.0025,
-author = {Keyhan Najafian  and Alireza Ghanbari  and Mahdi Sabet Kish  and Mark Eramian  and Gholam Hassan Shirdel  and Ian Stavness  and Lingling Jin  and Farhad Maleki },
-title = {Semi-Self-Supervised Learning for Semantic Segmentation in Images with Dense Patterns},
-journal = {Plant Phenomics},
-volume = {5},
-number = {},
-pages = {0025},
-year = {2023},
-doi = {10.34133/plantphenomics.0025},
-URL = {https://spj.science.org/doi/abs/10.34133/plantphenomics.0025},
-eprint = {https://spj.science.org/doi/pdf/10.34133/plantphenomics.0025}
+    doi:10.34133/plantphenomics.0025,
+    author = {Keyhan Najafian  and Alireza Ghanbari  and Mahdi Sabet Kish  and Mark Eramian  and Gholam Hassan Shirdel  and Ian Stavness  and Lingling Jin  and Farhad Maleki },
+    title = {Semi-Self-Supervised Learning for Semantic Segmentation in Images with Dense Patterns},
+    journal = {Plant Phenomics},
+    volume = {5},
+    number = {},
+    pages = {0025},
+    year = {2023},
+    doi = {10.34133/plantphenomics.0025},
+    URL = {https://spj.science.org/doi/abs/10.34133/plantphenomics.0025},
+    eprint = {https://spj.science.org/doi/pdf/10.34133/plantphenomics.0025}
 }
 ```

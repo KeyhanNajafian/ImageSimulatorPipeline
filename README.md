@@ -34,6 +34,7 @@ To implement the code we used Python version 3.9, and a version of the packages 
       python3 simulation.py --config configs/simulation.yaml
    ```  
 ### 📝 Cite
+```
 @article{
     doi:10.34133/plantphenomics.0025,
     author = {Keyhan Najafian  and Alireza Ghanbari  and Mahdi Sabet Kish  and Mark Eramian  and Gholam Hassan Shirdel  and Ian Stavness  and Lingling Jin  and Farhad Maleki },

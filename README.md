@@ -34,13 +34,17 @@ To implement the code we used Python version 3.9, and a version of the packages 
       python3 simulation.py --config configs/simulation.yaml
    ```  
 ### 📝 Cite
-```
-@article{najafian2022semi,
-  title={Semi-Self-Supervised Learning for Semantic Segmentation in Images with Dense Patterns},
-  author={Najafian, Keyhan and Ghanbari, Alireza and Kish, Mahdi Sabet and Eramian, Mark and Shirdel, Gholam Hassan and 
-          Stavness, Ian and Jin, Lingling and Maleki, Farhad},
-  journal={bioRxiv},
-  year={2022},
-  publisher={Cold Spring Harbor Laboratory}
+@article{
+doi:10.34133/plantphenomics.0025,
+author = {Keyhan Najafian  and Alireza Ghanbari  and Mahdi Sabet Kish  and Mark Eramian  and Gholam Hassan Shirdel  and Ian Stavness  and Lingling Jin  and Farhad Maleki },
+title = {Semi-Self-Supervised Learning for Semantic Segmentation in Images with Dense Patterns},
+journal = {Plant Phenomics},
+volume = {5},
+number = {},
+pages = {0025},
+year = {2023},
+doi = {10.34133/plantphenomics.0025},
+URL = {https://spj.science.org/doi/abs/10.34133/plantphenomics.0025},
+eprint = {https://spj.science.org/doi/pdf/10.34133/plantphenomics.0025}
 }
 ```
